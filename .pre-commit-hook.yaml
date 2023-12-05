@@ -1,0 +1,7 @@
+repos:
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.75.0 # Get the latest from: https://github.com/gruntwork-io/pre-commit/releases
+  hooks:
+    - id: terraform_tflint
+    - id: terraform_fmt
+    - id: terraform_tfsec
